@@ -1,0 +1,17 @@
+.bigDiv {
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.nestDiv {
+    display: flex;
+    justify-content: center
+}
+.quadratic {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}

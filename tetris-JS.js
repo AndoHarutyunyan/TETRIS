@@ -699,7 +699,7 @@ function tetris(){
         }
     }
 
-    let clear=setInterval(down,800)
+    let clear=setInterval(down,300)
     function down() {
         coordinat=[x,y,z,k]
         let arr=[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190]
